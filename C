@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$sortstring = "Hello World";
+
+$stringndarray = str_split($sortstring);
+sort($stringndarray);
+$stringndarray = implode($stringndarray);
+
+foreach (count_chars($stringndarray, 1) as $i => $val)
+{
+   echo "\"" , chr($i) , "\" ; $val ,";
+}
+?>
+
+</body>
+</html>
