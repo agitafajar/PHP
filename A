@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$Listarray = array(12,9,30,”A”,”M”,99,82,”J”,”N”,”B”);
+sort($Listarray);
+
+$arrlength = count($Listarray);
+for($x = 0; $x < $arrlength; $x++) {
+  echo $Listarray[$x];
+  echo " ";
+}
+?>
+
+</body>
+</html>
