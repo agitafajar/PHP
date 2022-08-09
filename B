@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$value1 = "abakadabra";
+$value2 = "ab";
+echo substr_count($value1, $value2);
+?>
+
+</body>
+</html>
